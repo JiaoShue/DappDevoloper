@@ -1,0 +1,14 @@
+Create a new repository:
+1.Enter work directory.
+2.#git init
+3.New a repository with a repositoryName in the official website of Github.
+4.Connect remote repository address: 
+  #git remote add origin https://github.com/Username/repositoryName.git
+5.#git add filename or git add .(All files in this directory)
+6.#git commit -m 'Comment'
+7.#git push -u origin +master
+8.Enter username and password of the official website of Github.
+Update some files:
+1.git add filenames
+2.git commit -m "Comment"
+3.git push -u origin +master
