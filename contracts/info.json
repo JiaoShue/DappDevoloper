@@ -1,0 +1,281 @@
+﻿{
+    "name":"Ballot",
+    "method":"init",
+    "callType":"send",
+    "caller":"0xcd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+    "callerPwd":"123456",
+    "params":[
+        "f6e0a1e2ac41945a9aa7ff8a8aaa0cebc12a3bcc981a929ad5cf810a090e11ae",
+        "0xcd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+        "217081203011","某学校","焦先生","123456","测试投票",2
+    ]
+}
+{
+    "name":"Ballot",
+    "method":"getBallotID",
+    "callType":"call",
+    "caller":"0xcd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+    "callerPwd":"123456",
+    "params":[]
+}
+{
+    "name":"Ballot",
+    "method":"getBallotInfo",
+    "callType":"call",
+    "caller":"0xcd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+    "callerPwd":"123456",
+    "params":["f6e0a1e2ac41945a9aa7ff8a8aaa0cebc12a3bcc981a929ad5cf810a090e11ae"]
+}
+{
+    "name":"Ballot",
+    "method":"getCurrBallotInfo",
+    "callType":"call",
+    "caller":"0xcd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+    "callerPwd":"123456",
+    "params":[]
+}
+{
+    "name":"Ballot",
+    "method":"candidateApply",
+    "callType":"send",
+    "caller":"0xcd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+    "callerPwd":"123456",
+    "params":[
+        "0xcd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+        "217081203011","焦先生","123456",
+        "f6e0a1e2ac41945a9aa7ff8a8aaa0cebc12a3bcc981a929ad5cf810a090e11ae","某学校","遵纪守法的好青年"
+    ]
+}
+{
+    "name":"Ballot",
+    "method":"candidateApply",
+    "callType":"send",
+    "caller":"0xcd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+    "callerPwd":"123456",
+    "params":[
+        "0xdd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+        "217081203010","果子女士","123456",
+        "f6e0a1e2ac41945a9aa7ff8a8aaa0cebc12a3bcc981a929ad5cf810a090e11ae","某学校","遵纪守法的好青年"
+    ]
+}
+{
+    "name":"Ballot",
+    "method":"candidateApply",
+    "callType":"send",
+    "caller":"0xcd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+    "callerPwd":"123456",
+    "params":[
+        "0xed34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+        "217081203012","沈女士","123456",
+        "f6e0a1e2ac41945a9aa7ff8a8aaa0cebc12a3bcc981a929ad5cf810a090e11ae","某学校","遵纪守法的好青年"
+    ]
+}
+{
+    "name":"Ballot",
+    "method":"getCandidateInfo",
+    "callType":"call",
+    "caller":"0xcd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+    "callerPwd":"123456",
+    "params":[
+        "0xcd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5"
+    ]
+}
+{
+    "name":"Ballot",
+    "method":"voterApply",
+    "callType":"send",
+    "caller":"0xcd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+    "callerPwd":"123456",
+    "params":[
+        "0xce34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+        "317081203011","刘先生",
+        "f6e0a1e2ac41945a9aa7ff8a8aaa0cebc12a3bcc981a929ad5cf810a090e11ae","123456","某学校"
+    ]
+}
+{
+    "name":"Ballot",
+    "method":"voterApply",
+    "callType":"send",
+    "caller":"0xcd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+    "callerPwd":"123456",
+    "params":[
+        "0xcf34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+        "317081203012","张先生",
+        "f6e0a1e2ac41945a9aa7ff8a8aaa0cebc12a3bcc981a929ad5cf810a090e11ae","123456","某学校"
+    ]
+}
+{
+    "name":"Ballot",
+    "method":"voterApply",
+    "callType":"send",
+    "caller":"0xcd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+    "callerPwd":"123456",
+    "params":[
+        "0xca34d1fcc8f2284fa2af8ea18d6f7d0b60ee17f5",
+        "317081203013","王先生",
+        "f6e0a1e2ac41945a9aa7ff8a8aaa0cebc12a3bcc981a929ad5cf810a090e11ae","123456","某学校"
+    ]
+}
+{
+    "name":"Ballot",
+    "method":"getVoterInfo",
+    "callType":"call",
+    "caller":"0xcd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+    "callerPwd":"123456",
+    "params":[
+        "0xce34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5"
+    ]
+}
+{
+    "name":"Ballot",
+    "method":"checkCandidate",
+    "callType":"send",
+    "caller":"0xcd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+    "callerPwd":"123456",
+    "params":[
+        ["0x0742D74Bc7fc261618F6f537E9bE3f1d2a1a052c","0x9D923bec8b116C3fB09b4B756cd5fA8438000802","0xf1b2560b3d79d883Ee791Dc3AbB908E17969c5E7"]
+        
+    ]
+}
+{
+    "name":"Ballot",
+    "method":"checkCandidate",
+    "callType":"send",
+    "caller":"0xcd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+    "callerPwd":"123456",
+    "params":[
+        "0xdd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5"
+    ]
+}
+{
+    "name":"Ballot",
+    "method":"checkCandidate",
+    "callType":"send",
+    "caller":"0xcd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+    "callerPwd":"123456",
+    "params":[
+        "0xed34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5"
+    ]
+}
+{
+    "name":"Ballot",
+    "method":"checkVoter",
+    "callType":"send",
+    "caller":"0xcd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+    "callerPwd":"123456",
+    "params":[
+        1,["0x952B26EcA5d0851C3D3e75F6262472669b72835A","0xAf9430130730DAF7062DcA7Af002882DFea291BF","0xcd34d1FcC8f2284FA2AF8eA18d6C7d0b60ee17F5"]
+    ]
+}
+{
+    "name":"Ballot",
+    "method":"checkVoter",
+    "callType":"send",
+    "caller":"0xcd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+    "callerPwd":"123456",
+    "params":[
+        1,"0xcf34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5"
+    ]
+}
+{
+    "name":"Ballot",
+    "method":"checkVoter",
+    "callType":"send",
+    "caller":"0xcd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+    "callerPwd":"123456",
+    "params":[
+        1,"0xca34d1fcc8f2284fa2af8ea18d6f7d0b60ee17f5"
+    ]
+}
+{
+    "name":"Ballot",
+    "method":"startVote",
+    "callType":"send",
+    "caller":"0xcd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+    "callerPwd":"123456",
+    "params":[
+        "f6e0a1e2ac41945a9aa7ff8a8aaa0cebc12a3bcc981a929ad5cf810a090e11ae",2
+    ]
+}
+{
+    "name":"Ballot",
+    "method":"vote",
+    "callType":"send",
+    "caller":"0xcd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+    "callerPwd":"123456",
+    "params":[
+        "0xce34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5","0xdd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+        "f6e0a1e2ac41945a9aa7ff8a8aaa0cebc12a3bcc981a929ad5cf810a090e11ae"
+    ]
+}
+{
+    "name":"Ballot",
+    "method":"vote",
+    "callType":"send",
+    "caller":"0xcd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+    "callerPwd":"123456",
+    "params":[
+        "0xcf34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5","0xed34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+        "f6e0a1e2ac41945a9aa7ff8a8aaa0cebc12a3bcc981a929ad5cf810a090e11ae"
+    ]
+}
+{
+    "name":"Ballot",
+    "method":"calcRes",
+    "callType":"send",
+    "caller":"0xcd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+    "callerPwd":"123456",
+    "params":[
+        "f6e0a1e2ac41945a9aa7ff8a8aaa0cebc12a3bcc981a929ad5cf810a090e11ae"
+    ]
+}
+{
+    "name":"Ballot",
+    "method":"getVictors",
+    "callType":"call",
+    "caller":"0xcd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+    "callerPwd":"123456",
+    "params":[
+        "f6e0a1e2ac41945a9aa7ff8a8aaa0cebc12a3bcc981a929ad5cf810a090e11ae"
+    ]
+}
+{
+    "name":"Ballot",
+    "method":"getBallots",
+    "callType":"call",
+    "caller":"0xcd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+    "callerPwd":"123456",
+    "params":[]
+}
+{
+    "name":"Ballot",
+    "method":"getCandidateInfo",
+    "callType":"call",
+    "caller":"0xcd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+    "callerPwd":"123456",
+    "params":["0x4fA70cb9ea75F3c9c68d6CC272634a015118Fd10"]
+}
+{
+    "name":"Ballot",
+    "method":"getCandidates",
+    "callType":"call",
+    "caller":"0xcd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+    "callerPwd":"123456",
+    "params":[]
+}
+{
+    "name":"Ballot",
+    "method":"getVoters",
+    "callType":"call",
+    "caller":"0xcd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+    "callerPwd":"123456",
+    "params":[]
+}
+{
+    "name":"Ballot",
+    "method":"getVictors",
+    "callType":"call",
+    "caller":"0xcd34d1fcc8f2284fa2af8ea18d6c7d0b60ee17f5",
+    "callerPwd":"123456",
+    "params":["40ab6a968adad617e0ca1fb186ae4912397dbf8507aa3a31293f529608dd5603"]
+}
